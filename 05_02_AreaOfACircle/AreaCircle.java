@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class AreaCircle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter radius:");
+        double radius = sc.nextDouble();
+
+        System.out.println("Enter units:");
+        String units = sc.next();
+
+        double area = Math.PI * radius * radius;
+
+        System.out.println("Area = " + area + " " + units + "^2");
+
+        sc.close();
+    }
+}
