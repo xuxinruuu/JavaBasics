@@ -82,10 +82,10 @@ public class FoodTruck {
             case "water" -> {
                 price += 2.20;
             }
-        default -> {
-            System.out.println("Invalid choice");
-            return;
-        }
+            default -> {
+                System.out.println("Invalid choice");
+                return;
+            }
         }
         System.out.printf("Total: %.2f €", price);
 
